@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		0186E28FDFE15CC7234D5784 /* Pods_myInstaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B29C0C3375072D7DD8AF068 /* Pods_myInstaUITests.framework */; };
 		1B63974D68263F67B45E220C /* Pods_myInstaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E216F6AFB67AE9072F8CDEA1 /* Pods_myInstaTests.framework */; };
+		BD1DACDB2169F26B00FDE73E /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1DACDA2169F26B00FDE73E /* PhotosViewController.swift */; };
+		BD60876F216C57060059652A /* NewPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD60876E216C57060059652A /* NewPostViewController.swift */; };
+		BD608771216C5F0E0059652A /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD608770216C5F0E0059652A /* PostCell.swift */; };
 		BD8B6375216476F000541326 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8B6374216476F000541326 /* AppDelegate.swift */; };
 		BD8B637A216476F000541326 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD8B6378216476F000541326 /* Main.storyboard */; };
 		BD8B637C216476F000541326 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD8B637B216476F000541326 /* Assets.xcassets */; };
@@ -43,6 +46,9 @@
 		8D0BBE616C6072E9DC17A18B /* Pods-myInstaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myInstaTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-myInstaTests/Pods-myInstaTests.release.xcconfig"; sourceTree = "<group>"; };
 		9E24A4A1DAF5FE60E3339FD6 /* Pods-myInstaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myInstaTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-myInstaTests/Pods-myInstaTests.debug.xcconfig"; sourceTree = "<group>"; };
 		A4BFD993FF17974BC5E4B56A /* Pods-myInstaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myInstaUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-myInstaUITests/Pods-myInstaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BD1DACDA2169F26B00FDE73E /* PhotosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
+		BD60876E216C57060059652A /* NewPostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPostViewController.swift; sourceTree = "<group>"; };
+		BD608770216C5F0E0059652A /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 		BD8B6371216476F000541326 /* myInsta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myInsta.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD8B6374216476F000541326 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BD8B6379216476F000541326 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -133,6 +139,9 @@
 				BD8B637D216476F000541326 /* LaunchScreen.storyboard */,
 				BD8B6380216476F000541326 /* Info.plist */,
 				BD8B63A2216484B300541326 /* LoginViewController.swift */,
+				BD1DACDA2169F26B00FDE73E /* PhotosViewController.swift */,
+				BD60876E216C57060059652A /* NewPostViewController.swift */,
+				BD608770216C5F0E0059652A /* PostCell.swift */,
 			);
 			path = myInsta;
 			sourceTree = "<group>";
@@ -380,8 +389,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD1DACDB2169F26B00FDE73E /* PhotosViewController.swift in Sources */,
+				BD60876F216C57060059652A /* NewPostViewController.swift in Sources */,
 				BD8B63A3216484B300541326 /* LoginViewController.swift in Sources */,
 				BD8B6375216476F000541326 /* AppDelegate.swift in Sources */,
+				BD608771216C5F0E0059652A /* PostCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -19,15 +19,20 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         Parse.initialize(
             with: ParseClientConfiguration(block: { (configuration: ParseMutableClientConfiguration) -> Void in
-                configuration.applicationId = "i****"
-                configuration.clientKey = "o****"  // set to nil assuming you have not set clientKey
+                configuration.applicationId = "instagram"
+                configuration.clientKey = "ojpaoiwur902039"  // set to nil assuming you have not set clientKey
                 configuration.server = "https://tranquil-brushlands-49217.herokuapp.com/parse"
             })
         )
+    
         
         
         return true
     }
+    
+    
+    
+    
 
     func applicationWillResignActive(_ application: UIApplication) {
         // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
